@@ -3,7 +3,7 @@
 I'm Jonah, a data enthusiast and aspiring data scientist hailing from Los Angeles. My GitHub journey revolves around crafting Python, R, and SQL queries for various data science and data engineering projects.
 
 ### About Me ℹ️
-💻 Currently pursuing my Master's in Information and Data Science at UC Berkeley.
+💻 Currently pursuing my Master's in Information and Data Science at UC Berkeley. /n
 🎓 Holds a Bachelor's degree in Data Science and Economics.
 🌟 Passionate about transforming raw data into actionable insights.
 📊 Skilled in data analysis, machine learning, and statistical modeling.
