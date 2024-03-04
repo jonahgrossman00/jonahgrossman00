@@ -5,8 +5,8 @@ I'm Jonah, a data enthusiast and aspiring data scientist hailing from Los Angele
 ### About Me ℹ️
 💻 Currently pursuing my Master's in Information and Data Science at UC Berkeley.<br>
 🎓 Holds a Bachelor's degree in Data Science and Economics.<br>
-🌟 Passionate about transforming raw data into actionable insights.
-📊 Skilled in data analysis, machine learning, and statistical modeling.
+🌟 Passionate about transforming raw data into actionable insights.<br>
+📊 Skilled in data analysis, machine learning, and statistical modeling.<br>
 🚀 Constantly exploring new tools and technologies to level up my data game.
 
 ### Repository Highlights 🌟
