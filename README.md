@@ -48,7 +48,7 @@ I'm Jonah Grossman, a data scientist passionate about using data to solve real-w
 
 ---
 
-### 4. [The Effect of Graduate-Level Higher Education on Women’s Likability](./The Effect of Graduate-Level Higher Education on Women’s Likability)  
+### 4. [The Effect of Graduate-Level Higher Education on Women’s Likability](./The Effect of Graduate-Level Higher Education on Women's Likability)   
 **Objective**: Research and analyze societal perceptions of women with advanced education.  
 **Key Features**:  
 - Conducted hypothesis testing and regression analysis using R.  
