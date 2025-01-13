@@ -1,0 +1,202 @@
+---
+title: "Power Analysis: 241 Final Project"
+author: "Jonah Grossman, Aryana Far, Derek Yao, Jun Park"
+date: "2/19/2024"
+name: "Jonah Grossman"
+output: 
+  pdf_document: 
+    number_sections: true
+---
+```{r global options, include = FALSE}
+knitr::opts_chunk$set(include = FALSE, message = FALSE, warning = FALSE )
+
+knitr::knit_engines$set(problem_description = function(options) {
+  code <- paste(options$code, collapse = "\n")
+})
+```
+
+
+\newpage
+
+```{r, include = FALSE}
+#Maybe womens: experience a negative treatment effect(women with higher education are less likable??)
+possible.ns <- seq(from=10, to=200, by=10) # The sample sizes we'll be considering
+stopifnot(all( (possible.ns %% 2)==0 )) ## require even number of experimental pool
+powers <- rep(NA, length(possible.ns)) # Empty object to collect simulation estimates 
+alpha <- 0.05 # Standard significance level 
+sims <- 500 # Number of simulations to conduct for each N 
+#### Outer loop to vary the number of subjects #### 
+for (j in 1:length(possible.ns)){ N <- possible.ns[j] # Pick the jth value for N 
+  Y0 <- rnorm(n=N, mean=75, sd=25) # control potential outcome   (about 1000 likes -> 75)
+  tau <- -10 # Hypothesize treatment effect 
+  Y1 <- Y0 + tau # treatment potential outcome                                   
+  significant.experiments <- rep(NA, sims) # Empty object to count significant experiments 
+                                  
+  #### Inner loop to conduct experiments "sims" times over for each N #### 
+        Y0 <- rnorm(n=N, mean=75, sd=25) # control potential outcome 
+        tau <- -10 # Hypothesize treatment effect 
+        Y1 <- Y0 + tau # treatment potential outcome 
+  for (i in 1:sims){ 
+        ## Z.sim <- rbinom(n=N, size=1, prob=.5) # Do a random assignment  by coin flip
+        Z.sim <- sample(rep(c(0,1),N/2)) ## Do a random assignment ensuring equal sized groups
+        Y.sim <- Y1*Z.sim + Y0*(1-Z.sim) # Reveal outcomes according to assignment 
+        fit.sim <- lm(Y.sim ~ Z.sim) # Do analysis (Simple regression) 
+        p.value <- summary(fit.sim)$coefficients[2,4] # Extract p-values 
+        significant.experiments[i] <- (p.value <= alpha) # Determine significance according to p <= 0.05
+        }
+  powers[j] <- mean(significant.experiments) # store average success rate (power) for each N 
+  } 
+powers 
+```
+
+```{r, include = TRUE}
+plot(possible.ns, powers, main = "Power Simulation for Women: \n Experience a Negative Treatment Effect (Tau = -10)", xlab = "Sample Size", ylab= "Simulated Power")
+```
+
+\newpage
+
+```{r, include = FALSE}
+#Maybe womens: experience a positive treatment effect(women with higher education are more likable??)
+possible.ns <- seq(from=10, to=200, by=10) # The sample sizes we'll be considering
+stopifnot(all( (possible.ns %% 2)==0 )) ## require even number of experimental pool
+powers <- rep(NA, length(possible.ns)) # Empty object to collect simulation estimates 
+alpha <- 0.05 # Standard significance level 
+sims <- 500 # Number of simulations to conduct for each N 
+#### Outer loop to vary the number of subjects #### 
+for (j in 1:length(possible.ns)){ N <- possible.ns[j] # Pick the jth value for N 
+  Y0 <- rnorm(n=N, mean=75, sd=25) # control potential outcome   (about 1000 likes -> 100)
+  tau <- 5 # Hypothesize treatment effect 
+  Y1 <- Y0 + tau # treatment potential outcome                                   
+  significant.experiments <- rep(NA, sims) # Empty object to count significant experiments 
+                                  
+  #### Inner loop to conduct experiments "sims" times over for each N #### 
+        Y0 <- rnorm(n=N, mean=75, sd=25) # control potential outcome 
+        tau <- 5 # Hypothesize treatment effect 
+        Y1 <- Y0 + tau # treatment potential outcome 
+  for (i in 1:sims){ 
+        ## Z.sim <- rbinom(n=N, size=1, prob=.5) # Do a random assignment  by coin flip
+        Z.sim <- sample(rep(c(0,1),N/2)) ## Do a random assignment ensuring equal sized groups
+        Y.sim <- Y1*Z.sim + Y0*(1-Z.sim) # Reveal outcomes according to assignment 
+        fit.sim <- lm(Y.sim ~ Z.sim) # Do analysis (Simple regression) 
+        p.value <- summary(fit.sim)$coefficients[2,4] # Extract p-values 
+        significant.experiments[i] <- (p.value <= alpha) # Determine significance according to p <= 0.05
+        }
+  powers[j] <- mean(significant.experiments) # store average success rate (power) for each N 
+  } 
+powers 
+```
+
+```{r, include = TRUE}
+plot(possible.ns, powers, main = "Power Simulation for Women: \n Experience a Positive Treatment Effect (Tau = 5)", xlab = "Sample Size", ylab= "Simulated Power")
+```
+
+\newpage
+
+```{r, include = FALSE}
+#Maybe womens: experience no treatment effect(women with higher education have no effect on likability??)
+possible.ns <- seq(from=10, to=200, by=10) # The sample sizes we'll be considering
+stopifnot(all( (possible.ns %% 2)==0 )) ## require even number of experimental pool
+powers <- rep(NA, length(possible.ns)) # Empty object to collect simulation estimates 
+alpha <- 0.05 # Standard significance level 
+sims <- 500 # Number of simulations to conduct for each N 
+#### Outer loop to vary the number of subjects #### 
+for (j in 1:length(possible.ns)){ N <- possible.ns[j] # Pick the jth value for N 
+  Y0 <- rnorm(n=N, mean=75, sd=25) # control potential outcome   (about 1000 likes -> 100)
+  tau <- 0 # Hypothesize treatment effect 
+  Y1 <- Y0 + tau # treatment potential outcome                                   
+  significant.experiments <- rep(NA, sims) # Empty object to count significant experiments 
+                                  
+  #### Inner loop to conduct experiments "sims" times over for each N #### 
+        Y0 <- rnorm(n=N, mean=75, sd=25) # control potential outcome 
+        tau <- 0 # Hypothesize treatment effect 
+        Y1 <- Y0 + tau # treatment potential outcome 
+  for (i in 1:sims){ 
+        ## Z.sim <- rbinom(n=N, size=1, prob=.5) # Do a random assignment  by coin flip
+        Z.sim <- sample(rep(c(0,1),N/2)) ## Do a random assignment ensuring equal sized groups
+        Y.sim <- Y1*Z.sim + Y0*(1-Z.sim) # Reveal outcomes according to assignment 
+        fit.sim <- lm(Y.sim ~ Z.sim) # Do analysis (Simple regression) 
+        p.value <- summary(fit.sim)$coefficients[2,4] # Extract p-values 
+        significant.experiments[i] <- (p.value <= alpha) # Determine significance according to p <= 0.05
+        }
+  powers[j] <- mean(significant.experiments) # store average success rate (power) for each N 
+  } 
+powers 
+```
+
+```{r, include = TRUE}
+plot(possible.ns, powers, main = "Power Simulation for Women: \n Experience No Treatment Effect (Tau = 0)", xlab = "Sample Size", ylab= "Simulated Power")
+```
+
+\newpage
+
+```{r, include = FALSE}
+#Maybe mens: experience a positive treatment effect(men with higher education are more likable??)
+possible.ns <- seq(from=10, to=200, by=10) # The sample sizes we'll be considering
+stopifnot(all( (possible.ns %% 2)==0 )) ## require even number of experimental pool
+powers <- rep(NA, length(possible.ns)) # Empty object to collect simulation estimates 
+alpha <- 0.05 # Standard significance level 
+sims <- 500 # Number of simulations to conduct for each N 
+#### Outer loop to vary the number of subjects #### 
+for (j in 1:length(possible.ns)){ N <- possible.ns[j] # Pick the jth value for N 
+  Y0 <- rnorm(n=N, mean=50, sd=15) # control potential outcome   (about 1000 likes -> 100)
+  tau <- 10 # Hypothesize treatment effect 
+  Y1 <- Y0 + tau # treatment potential outcome                                   
+  significant.experiments <- rep(NA, sims) # Empty object to count significant experiments 
+                                  
+  #### Inner loop to conduct experiments "sims" times over for each N #### 
+        Y0 <- rnorm(n=N, mean=50, sd=15) # control potential outcome 
+        tau <- 10 # Hypothesize treatment effect 
+        Y1 <- Y0 + tau # treatment potential outcome 
+  for (i in 1:sims){ 
+        ## Z.sim <- rbinom(n=N, size=1, prob=.5) # Do a random assignment  by coin flip
+        Z.sim <- sample(rep(c(0,1),N/2)) ## Do a random assignment ensuring equal sized groups
+        Y.sim <- Y1*Z.sim + Y0*(1-Z.sim) # Reveal outcomes according to assignment 
+        fit.sim <- lm(Y.sim ~ Z.sim) # Do analysis (Simple regression) 
+        p.value <- summary(fit.sim)$coefficients[2,4] # Extract p-values 
+        significant.experiments[i] <- (p.value <= alpha) # Determine significance according to p <= 0.05
+        }
+  powers[j] <- mean(significant.experiments) # store average success rate (power) for each N 
+  } 
+powers 
+```
+
+```{r, include = TRUE}
+plot(possible.ns, powers, main = "Power Simulation for Men: \n Experience a Positive Treatment Effect (Tau = 10)", xlab = "Sample Size", ylab= "Simulated Power")
+```
+
+\newpage
+
+```{r, include = FALSE}
+#Maybe mens: experience a less positive treatment effect(men with higher education are more likable??)
+possible.ns <- seq(from=10, to=200, by=10) # The sample sizes we'll be considering
+stopifnot(all( (possible.ns %% 2)==0 )) ## require even number of experimental pool
+powers <- rep(NA, length(possible.ns)) # Empty object to collect simulation estimates 
+alpha <- 0.05 # Standard significance level 
+sims <- 500 # Number of simulations to conduct for each N 
+#### Outer loop to vary the number of subjects #### 
+for (j in 1:length(possible.ns)){ N <- possible.ns[j] # Pick the jth value for N 
+  Y0 <- rnorm(n=N, mean=50, sd=15) # control potential outcome   (about 1000 likes -> 100)
+  tau <- 5 # Hypothesize treatment effect 
+  Y1 <- Y0 + tau # treatment potential outcome                                   
+  significant.experiments <- rep(NA, sims) # Empty object to count significant experiments 
+                                  
+  #### Inner loop to conduct experiments "sims" times over for each N #### 
+        Y0 <- rnorm(n=N, mean=50, sd=15) # control potential outcome 
+        tau <- 5 # Hypothesize treatment effect 
+        Y1 <- Y0 + tau # treatment potential outcome 
+  for (i in 1:sims){ 
+        ## Z.sim <- rbinom(n=N, size=1, prob=.5) # Do a random assignment  by coin flip
+        Z.sim <- sample(rep(c(0,1),N/2)) ## Do a random assignment ensuring equal sized groups
+        Y.sim <- Y1*Z.sim + Y0*(1-Z.sim) # Reveal outcomes according to assignment 
+        fit.sim <- lm(Y.sim ~ Z.sim) # Do analysis (Simple regression) 
+        p.value <- summary(fit.sim)$coefficients[2,4] # Extract p-values 
+        significant.experiments[i] <- (p.value <= alpha) # Determine significance according to p <= 0.05
+        }
+  powers[j] <- mean(significant.experiments) # store average success rate (power) for each N 
+  } 
+powers 
+```
+
+```{r, include = TRUE}
+plot(possible.ns, powers, main = "Power Simulation for Men: \n Experience a Positive Treatment Effect (Tau = 5)", xlab = "Sample Size", ylab= "Simulated Power")
+```
