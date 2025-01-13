@@ -40,7 +40,7 @@ https://github.com/jonahgrossman00/jonahgrossman00/tree/main/StillSafe
 
 ---
 
-### 3. [SportsBetPro](./link-to-repo)  
+### 3. [SportsBetPro](./SportsBetPro)  
 **Objective**: Create an analytics-driven sports betting tool for better decision-making.  
 **Key Features**:  
 - Modeled historical data to simulate betting outcomes.  
