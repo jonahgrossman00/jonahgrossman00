@@ -1,25 +1,27 @@
-### Hi there 👋
+# Hi there 👋  
 
-I'm Jonah Grossman, a data scientist passionate about using data to solve real-world problems. I recently earned my Master of Information and Data Science from UC Berkeley, and my GitHub journey showcases diverse projects spanning machine learning, data analysis, and engineering.
+I'm **Jonah Grossman**, a data scientist passionate about using data to solve real-world problems. I recently earned my **Master of Information and Data Science** from **UC Berkeley**, and my GitHub journey showcases diverse projects spanning machine learning, data analysis, and engineering.  
 
-### About Me ℹ️
-🎓 Educational Background:
+---
 
-- Master of Information and Data Science, University of California, Berkeley<br>
-- Bachelor's in Data Science and Economics<br>
+## ℹ️ About Me  
 
-💻 Technical Skills:
+### 🎓 Educational Background:  
+- **Master of Information and Data Science**, University of California, Berkeley  
+- **Bachelor’s in Data Science and Economics**  
 
-- Programming: Python, R, SQL, Java<br>
-- Tools: AWS, Tableau, Git, Streamlit, Salesforce<br>
-- Expertise: Data Analysis, Machine Learning, Data Engineering, Statistical Modeling<br>
+### 💻 Technical Skills:  
+- **Programming**: Python, R, SQL, Java  
+- **Tools**: AWS, Tableau, Git, Streamlit, Salesforce  
+- **Expertise**: Data Analysis, Machine Learning, Data Engineering, Statistical Modeling  
 
-🚀 Interests:
+### 🚀 Interests:  
+- Building impactful AI/ML tools  
+- Solving complex challenges through data  
+- Transforming raw data into actionable insights  
+- Exploring new tools and technologies to level up my data game  
 
-- Building impactful AI/ML tools<br>
-- Solving complex challenges through data<br>
-- Passionate about transforming raw data into actionable insights.<br>
-- Constantly exploring new tools and technologies to level up my data game<br>
+---
 
 ## 🌟 Repository Highlights  
 
@@ -62,13 +64,16 @@ I'm Jonah Grossman, a data scientist passionate about using data to solve real-w
 - Processed large geospatial datasets to analyze traffic patterns.  
 - Visualized trends to support urban planning decisions.  
 
+---
 
+## 🤝 Let's Connect!  
+- 🌐 **LinkedIn**: [https://www.linkedin.com/in/jonah-max-grossman/](https://www.linkedin.com/in/jonah-max-grossman/)  
+- 💬 Feel free to explore my repositories and drop me a message!  
 
-### Let's Connect! 🤝
-LinkedIn: https://www.linkedin.com/in/jonah-max-grossman/
+---
 
-
-Feel free to explore my repositories and drop me a message! Let's collaborate and uncover the magic hidden within the data! ✨ #DataMagic #GitHubExplorer
+✨ Let's collaborate and uncover the magic hidden within the data! ✨  
+#DataMagic #GitHubExplorer
 
 
 <!--
