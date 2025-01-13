@@ -9,11 +9,11 @@ I'm Jonah Grossman, a data scientist passionate about using data to solve real-w
 📊 Skilled in data analysis, machine learning, and statistical modeling.<br>
 🚀 Constantly exploring new tools and technologies to level up my data game.
 
-🚀 About Me
+### About Me ℹ️
 🎓 Education:
 
-Master of Information and Data Science, University of California, Berkeley
-Bachelor's in Data Science and Economics
+- Master of Information and Data Science, University of California, Berkeley<br>
+Bachelor's in Data Science and Economics<br>
 💻 Technical Skills:
 
 Programming: Python, R, SQL
