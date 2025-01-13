@@ -22,41 +22,41 @@ I'm Jonah Grossman, a data scientist passionate about using data to solve real-w
 - Constantly exploring new tools and technologies to level up my data game<br>
 
 ### Repository Highlights 🌟
-1. StillSafe
-Objective: Predict the risk of stillbirth using machine learning models trained on CDC birth and fetal death datasets.
-Key Features:
+1. StillSafe<br>
+Objective: Predict the risk of stillbirth using machine learning models trained on CDC birth and fetal death datasets.<br>
+Key Features:<br>
 
-- Developed an end-to-end data pipeline for feature engineering and model training.
-- Utilized AWS SageMaker for scalable model deployment.
-- Delivered an MVP including a web API, risk assessments, and actionable recommendations.
+- Developed an end-to-end data pipeline for feature engineering and model training.<br>
+- Utilized AWS SageMaker for scalable model deployment.<br>
+- Delivered an MVP including a web API, risk assessments, and actionable recommendations.<br>
 
-2. Do Democrats or Republicans Experience More Difficulty Voting?
-Objective: Analyze voter accessibility data to uncover disparities across political affiliations.
-Key Features:
+2. Do Democrats or Republicans Experience More Difficulty Voting?<br>
+Objective: Analyze voter accessibility data to uncover disparities across political affiliations.<br>
+Key Features:<br>
 
-- Visualized accessibility metrics using Python and Tableau.
-- Identified key trends and actionable insights.
+- Visualized accessibility metrics using Python and Tableau.<br>
+- Identified key trends and actionable insights.<br>
 
-3. SportsBetPro
-Objective: Create an analytics-driven sports betting tool for better decision-making.
-Key Features:
+3. SportsBetPro<br>
+Objective: Create an analytics-driven sports betting tool for better decision-making.<br>
+Key Features:<br>
 
-- Modeled historical data to simulate betting outcomes.
-- Built a user-friendly dashboard using Streamlit.
+- Modeled historical data to simulate betting outcomes.<br>
+- Built a user-friendly dashboard using Streamlit.<br>
 
-4. The Effect of Graduate-Level Higher Education on Women’s Likability
-Objective: Research and analyze societal perceptions of women with advanced education.
-Key Features:
+4. The Effect of Graduate-Level Higher Education on Women’s Likability<br>
+Objective: Research and analyze societal perceptions of women with advanced education.<br>
+Key Features:<br>
 
-- Conducted hypothesis testing and regression analysis using R.
-- Produced insights into cultural and professional biases.
+- Conducted hypothesis testing and regression analysis using R.<br>
+- Produced insights into cultural and professional biases.<br>
 
-5. Uber Traffic Speeds in a Post-Lockdown World
-Objective: Evaluate urban recovery trends using Uber movement data.
-Key Features:
+5. Uber Traffic Speeds in a Post-Lockdown World<br>
+Objective: Evaluate urban recovery trends using Uber movement data.<br>
+Key Features:<br>
 
-- Processed large geospatial datasets to analyze traffic patterns.
-- Visualized trends to support urban planning decisions.
+- Processed large geospatial datasets to analyze traffic patterns.<br>
+- Visualized trends to support urban planning decisions.<br>
 
 ### Let's Connect! 🤝
 LinkedIn: https://www.linkedin.com/in/jonah-max-grossman/
