@@ -32,7 +32,7 @@ I'm Jonah Grossman, a data scientist passionate about using data to solve real-w
 
 ---
 
-### 2. [Do Democrats or Republicans Experience More Difficulty Voting?](./[Do Democrats or Republicans Experience More Difficulty Voting?](https://github.com/jonahgrossman00/jonahgrossman00/tree/main/Do%20Democrats%20or%20Republicans%20Experience%20More%20Difficulty%20Voting%3F)
+### 2. [Do Democrats or Republicans Experience More Difficulty Voting?](./[Do Democrats or Republicans Experience More Difficulty Voting?](https://github.com/jonahgrossman00/jonahgrossman00/tree/main/Do%20Democrats%20or%20Republicans%20Experience%20More%20Difficulty%20Voting%3F))
 **Objective**: Analyze voter accessibility data to uncover disparities across political affiliations.  
 **Key Features**:  
 - Visualized accessibility metrics using Python and Tableau.  
@@ -48,7 +48,7 @@ I'm Jonah Grossman, a data scientist passionate about using data to solve real-w
 
 ---
 
-### 4. [The Effect of Graduate-Level Higher Education on Women’s Likability](./[The Effect of Graduate-Level Higher Education on Women's Likability](https://github.com/jonahgrossman00/jonahgrossman00/tree/main/The%20Effect%20of%20Graduate-Level%20Higher%20Education%20on%20Women%E2%80%99s%20Likability) 
+### 4. [The Effect of Graduate-Level Higher Education on Women’s Likability](./[The Effect of Graduate-Level Higher Education on Women's Likability](https://github.com/jonahgrossman00/jonahgrossman00/tree/main/The%20Effect%20of%20Graduate-Level%20Higher%20Education%20on%20Women%E2%80%99s%20Likability)) 
 **Objective**: Research and analyze societal perceptions of women with advanced education.  
 **Key Features**:  
 - Conducted hypothesis testing and regression analysis using R.  
@@ -56,7 +56,7 @@ I'm Jonah Grossman, a data scientist passionate about using data to solve real-w
 
 ---
 
-### 5. [Uber Traffic Speeds in a Post-Lockdown World](./[Uber Traffic Speeds in a Post-Lockdown World)](https://github.com/jonahgrossman00/jonahgrossman00/tree/main/Uber%20Traffic%20Speeds%20in%20Post-Lockdown%20World)  
+### 5. [Uber Traffic Speeds in a Post-Lockdown World](./[Uber Traffic Speeds in a Post-Lockdown World)](https://github.com/jonahgrossman00/jonahgrossman00/tree/main/Uber%20Traffic%20Speeds%20in%20Post-Lockdown%20World))
 **Objective**: Evaluate urban recovery trends using Uber movement data.  
 **Key Features**:  
 - Processed large geospatial datasets to analyze traffic patterns.  
