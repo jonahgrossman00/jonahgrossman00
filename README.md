@@ -23,7 +23,7 @@ I'm Jonah Grossman, a data scientist passionate about using data to solve real-w
 
 ## 🌟 Repository Highlights  
 https://github.com/jonahgrossman00/jonahgrossman00/tree/main/StillSafe
-### 1. [StillSafe](./link-to-repo)  
+### 1. [StillSafe]([./link-to-repo](https://github.com/jonahgrossman00/jonahgrossman00/tree/main/StillSafe))  
 **Objective**: Predict the risk of stillbirth using machine learning models trained on CDC birth and fetal death datasets.  
 **Key Features**:  
 - Developed an end-to-end data pipeline for feature engineering and model training.  
