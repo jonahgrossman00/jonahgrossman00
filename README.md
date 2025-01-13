@@ -26,43 +26,47 @@ I'm **Jonah Grossman**, a data scientist passionate about using data to solve re
 ## 🌟 Repository Highlights  
 
 ### 1. [StillSafe](https://github.com/jonahgrossman00/jonahgrossman00/tree/main/StillSafe)  
-**Objective**: Predict the risk of stillbirth using machine learning models trained on CDC birth and fetal death datasets.  
+**Objective**: A machine learning tool developed to predict the risk of stillbirth using CDC birth and fetal death datasets.  
 **Key Features**:  
-- Developed an end-to-end data pipeline for feature engineering and model training.  
-- Utilized AWS SageMaker for scalable model deployment.  
-- Delivered an MVP including a web API, risk assessments, and actionable recommendations.  
+- Built a data pipeline for data wrangling, feature engineering, and model training.  
+- Integrated AWS SageMaker, Lambda, and API Gateway for seamless deployment.  
+- Designed a Streamlit web application to provide risk assessments and actionable tips.  
 
 ---
 
-### 2. [Do Democrats or Republicans Experience More Difficulty Voting?](https://github.com/jonahgrossman00/jonahgrossman00/tree/main/Do%20Democrats%20or%20Republicans%20Experience%20More%20Difficulty%20Voting%3F)  
-**Objective**: Analyze voter accessibility data to uncover disparities across political affiliations.  
+### 2. [SportsBetPro](https://github.com/jonahgrossman00/jonahgrossman00/tree/main/SportsBetPro)  
+**Objective**: Predict outcomes in sports betting by developing machine learning models.  
 **Key Features**:  
-- Visualized accessibility metrics using Python and Tableau.  
-- Identified key trends and actionable insights.  
+- Collected and analyzed historical betting odds, player statistics, and game outcomes.  
+- Developed regression and classification models, achieving over 55% accuracy.  
+- Applied feature engineering and exploratory data analysis to enhance predictions.  
 
 ---
 
-### 3. [SportsBetPro](https://github.com/jonahgrossman00/jonahgrossman00/tree/main/SportsBetPro)  
-**Objective**: Create an analytics-driven sports betting tool for better decision-making.  
+### 3. [The Effect of Graduate-Level Higher Education on Women’s Likability](https://github.com/jonahgrossman00/jonahgrossman00/tree/main/The%20Effect%20of%20Graduate-Level%20Higher%20Education%20on%20Women%E2%80%99s%20Likability)  
+**Objective**: Analyze the impact of graduate education on women’s likability in online dating scenarios.  
 **Key Features**:  
-- Modeled historical data to simulate betting outcomes.  
-- Built a user-friendly dashboard using Streamlit.  
+- Conducted a field experiment with 1,800 observations on Tinder.  
+- Used linear regression to reveal significant positive effects of education.  
+- Highlighted the sociocultural dynamics of educational attainment in dating preferences.  
 
 ---
 
-### 4. [The Effect of Graduate-Level Higher Education on Women’s Likability](https://github.com/jonahgrossman00/jonahgrossman00/tree/main/The%20Effect%20of%20Graduate-Level%20Higher%20Education%20on%20Women%E2%80%99s%20Likability)  
-**Objective**: Research and analyze societal perceptions of women with advanced education.  
+### 4. [Do Democrats or Republicans Experience More Difficulty Voting?](https://github.com/jonahgrossman00/jonahgrossman00/tree/main/Do%20Democrats%20or%20Republicans%20Experience%20More%20Difficulty%20Voting%3F)  
+**Objective**: Investigate disparities in voting difficulties between Democratic and Republican voters.  
 **Key Features**:  
-- Conducted hypothesis testing and regression analysis using R.  
-- Produced insights into cultural and professional biases.  
+- Utilized data from the 2018 ANES to analyze voter demographics and accessibility.  
+- Conducted Wilcoxon rank sum tests, finding significant differences in voting difficulties.  
+- Revealed a weak negative correlation between party affiliation and voting challenges.  
 
 ---
 
-### 5. [Uber Traffic Speeds in a Post-Lockdown World](https://github.com/jonahgrossman00/jonahgrossman00/tree/main/Uber%20Traffic%20Speeds%20in%20Post-Lockdown%20World)  
-**Objective**: Evaluate urban recovery trends using Uber movement data.  
+### 5. [Uber Traffic Speeds in Post-Lockdown World](https://github.com/jonahgrossman00/jonahgrossman00/tree/main/Uber%20Traffic%20Speeds%20in%20Post-Lockdown%20World)  
+**Objective**: Predict traffic speeds based on changes in post-COVID lockdown patterns.  
 **Key Features**:  
-- Processed large geospatial datasets to analyze traffic patterns.  
-- Visualized trends to support urban planning decisions.  
+- Revised traffic models using linear and logistic regression to achieve 90% accuracy.  
+- Performed exploratory data analysis on Uber traffic speeds to extract key insights.  
+- Visualized results to inform urban planning and recovery trends.  
 
 ---
 
