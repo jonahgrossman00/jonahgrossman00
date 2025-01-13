@@ -22,8 +22,8 @@ I'm Jonah Grossman, a data scientist passionate about using data to solve real-w
 - Constantly exploring new tools and technologies to level up my data game<br>
 
 ## 🌟 Repository Highlights  
-https://github.com/jonahgrossman00/jonahgrossman00/tree/main/StillSafe
-### 1. [StillSafe](https://github.com/jonahgrossman00/jonahgrossman00/tree/main/StillSafe)
+
+### 1. [StillSafe](./StillSafe)
 **Objective**: Predict the risk of stillbirth using machine learning models trained on CDC birth and fetal death datasets.  
 **Key Features**:  
 - Developed an end-to-end data pipeline for feature engineering and model training.  
@@ -32,7 +32,7 @@ https://github.com/jonahgrossman00/jonahgrossman00/tree/main/StillSafe
 
 ---
 
-### 2. [Do Democrats or Republicans Experience More Difficulty Voting?](./link-to-repo)  
+### 2. [Do Democrats or Republicans Experience More Difficulty Voting?](./Do Democrats or Republicans Experience More Difficulty Voting?)  
 **Objective**: Analyze voter accessibility data to uncover disparities across political affiliations.  
 **Key Features**:  
 - Visualized accessibility metrics using Python and Tableau.  
@@ -48,7 +48,7 @@ https://github.com/jonahgrossman00/jonahgrossman00/tree/main/StillSafe
 
 ---
 
-### 4. [The Effect of Graduate-Level Higher Education on Women’s Likability](./link-to-repo)  
+### 4. [The Effect of Graduate-Level Higher Education on Women’s Likability](./The Effect of Graduate-Level Higher Education on Women’s Likability)  
 **Objective**: Research and analyze societal perceptions of women with advanced education.  
 **Key Features**:  
 - Conducted hypothesis testing and regression analysis using R.  
@@ -56,7 +56,7 @@ https://github.com/jonahgrossman00/jonahgrossman00/tree/main/StillSafe
 
 ---
 
-### 5. [Uber Traffic Speeds in a Post-Lockdown World](./link-to-repo)  
+### 5. [Uber Traffic Speeds in a Post-Lockdown World](./Uber Traffic Speeds in a Post-Lockdown World)  
 **Objective**: Evaluate urban recovery trends using Uber movement data.  
 **Key Features**:  
 - Processed large geospatial datasets to analyze traffic patterns.  
